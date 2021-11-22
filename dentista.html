@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentista</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #espaco1{
+    background-color: #37b6bc;
+        width: 100%;
+        height: 7vh;       
+        
+    }
+    #hder{
+        float: right;
+        padding-right: 30px;
+        
+    }
+    .espaco2{
+        background-color: white;
+        width: 100%;
+        height: 10vw;
+        
+    }
+    #espaco3{
+        background-color: #37b6bc;
+        width: 100%;
+        height: 25px;
+        
+
+    }
+    #spaco4{
+        width: 100%;
+        height: 250px;
+    }
+    header{
+        background-color: #0e8a96;
+        width: 100%;
+        height: 50px;
+        
+    }
+    img{
+            
+        margin: 0 auto;
+    
+    }
+    #cart{
+        border-radius: 5px;
+        border: 2px solid  #37b6bc;
+        
+    }
+    #logo, h1,p{
+        color: #7dedf8;
+        text-align: center;
+    }
+    #specs{
+        width: 100%;
+        background-color: #0e8a96;
+
+
+    }
+    #specs2{
+        background-color: #37b6bc; 
+        width: 100%;
+        border-bottom: 5vh solid white;       
+
+    }
+    #clorw{
+        color: white;
+    }
+    hr{
+        color: #37b6bc;
+    }
+    
+    #logo{
+        border: 5px dotted  #37b6bc;
+
+    }
+    footer{
+        background-color: #37b6bc;
+    }
+    #redes:hover{
+        transform: scale(1.2);
+
+    }
+    @media (min-width: 600px){
+        #cart{
+            width: 70vw;
+            height: 64vh;
+        }
+    }
+    
+</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="espaco1">
+        <div id="hder">
+            <img id="redes"  src="imagens/instagram.png"  width="36vw" alt="">
+            <img id="redes" src="imagens/twitter.png" width="36vw" alt="">
+
+            <img id="redes" src="imagens/whatsapp.png" width="36vw" alt="">
+        </div>
+
+    </div>
+    <div class="row container-fluid">
+        <div class="col-md-2"></div>
+        <div class="col-md-4"><h1 id="logo"><img src="imagens/dente.png" width="100px" alt="">Sua Marca Aqui</h1></div>
+  <div class="col-md-4"><h1>Agende sua consulta</h1>
+    <p>(11)2345678</p>   </div>
+  <div class="col-md-2"></div>
+</div>
+    <div class=" espaco2 container-fluid">
+        <div id="carouselExampleSlidesOnly" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img id="cart" src="imagens/imagen1 (1).jpg" class="d-block w-80 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img id="cart" src="imagens/imagen1 (2).jpg" class="d-block w-80 img-fluid" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img id="cart" src="imagens/imagen1 (3).jpg" class="d-block w-80  img-fluid" alt="...">
+              </div>
+            </div>
+          </div>
+
+    </div>
+    <header class="container-fluid">
+       
+    </header>
+    <div id="espaco3">
+
+    </div>
+    
+
+    <main class="row">
+        <div id="spaco4"></div>
+        <div id="specs">
+           <h1 style="text-align: center;">Especialidade</h1>
+        </div>
+
+<div  class="row container container-fluid" id="specs2" >
+
+    <div class="cards col-md-2 container-fluid"></div>
+
+    <div class=" cards col-md-3 container-fluid"> <h1 id="clorw"><img src="imagens/seguro-dental.png" width="50px" alt="">Clareamento</h1>
+    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iure ipsam odit voluptatibus illo provident, vero dolore distinctio voluptatum ut non natus cum animi nam quidem explicabo doloremque optio architecto!</p>
+<h1 style="color: white;"><img src="imagens/ferramentas-para-dentista.png" width="50px" alt=""> Anestesia Sem Agulha</h1>
+<p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut blanditiis dicta sunt dolores, magni odit totam velit fugit quaerat itaque excepturi vero accusamus nisi dolore, quas laboriosam. Ad, quis possimus!</p></div>
+
+    <div class=" cards col-md-3 container-fluid"><h1 id="clorw"><img src="imagens/folheado-dentario.png" width="50px" alt="">Implantes</h1 style="color: white;">
+    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum impedit consequuntur accusamus quis distinctio expedita, esse dolorum harum delectus, vitae rerum voluptatibus animi voluptas placeat error nam nobis autem dolore!</p >  <h1 style="color: white;"><img src="imagens/aparelho-ortodontico.png" width="50px" alt=""> Aparelhos</h1>
+
+<p style="color: white;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse soluta dolore culpa voluptas assumenda impedit nihil incidunt repellat, quisquam odio, eum magni accusantium quia sed eaque, inventore magnam vitae omnis.</p></div>
+
+    <div class=" cards col-md-3 container-fluid"><h1 id="clorw"><img src="imagens/varredura.png" width="50px" alt="">Proteses</h1>
+    <p style="color: white;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente voluptate soluta nostrum nobis repellat temporibus laboriosam unde, vero atque quaerat? Pariatur voluptatum porro excepturi repudiandae, nulla harum saepe vitae similique?</p><h1 style="color: white;"><img src="imagens/ortodontico.png" width="50px" alt="">Lentes</h1><p style="color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur aliquid accusamus, recusandae voluptates, ut maiores dolorem ipsam debitis fugit repudiandae adipisci doloremque ex, quidem soluta veniam unde. Esse, labore impedit?</p></div>
+    <div class="col-md-1 container-fluid"></div>
+</div>
+
+<div class="row container-fluid" id="trat">
+    <h1 style="background-color:#0e8a96;">Tratamentos</h1>
+
+    <div class="col-md-4 p-5"><h1 style="color: #0e8a96;;"><img src="imagens/cuidado-dental.png" width="50" alt=""> Clareamento Ultravioleta</h1> <hr size="10">
+    <p style="color: #0e8a96;;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, voluptates officiis! Molestiae consectetur temporibus sint reprehenderit accusamus perspiciatis ipsum eaque saepe explicabo, debitis iste facere ea optio minus culpa deleniti.</p></div>
+
+    <div class="col-md-4 p-5"><h1 style="color:#0e8a96;;"> <img src="imagens/implantar.png" width="50px" alt=""> Implante NanoTecnologico</h1><hr size="10">
+        <p style="color: #0e8a96;;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, assumenda obcaecati eum reiciendis incidunt rerum blanditiis vel, ipsa quisquam veritatis porro alias dicta quia. Reiciendis, cumque. Magnam exercitationem natus sunt?</p></div>
+
+    <div class="col-md-4 p-5" ><h1 style="color: #0e8a96;;"><img src="imagens/trat.png" width="50" alt=""> Implante em 20 dias</h1>
+        <hr size="10">
+        <p style="color:#0e8a96;;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos totam deleniti beatae distinctio libero enim nam quidem minima mollitia accusamus impedit nulla quasi delectus officiis, aliquid rem expedita optio.</p></div>
+</div>
+    </main>
+
+    <footer>
+        <div class="row">
+
+            <div class="col-md-1"></div>
+            <div class="col-md-3"><h1 style="color: bisque;"><img src="imagens/dente.png" width="100px" alt="">Sua Marca Aqui</h1></div>
+            <div class="col-md-2"><h1 style="color: bisque;">Endereço</h1> <p style="color: bisque;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ipsum animi necessitatibus.</p> </div>
+
+            <div class="col-md-3"><h1 style="color: bisque;">Redes</h1> <p style="color: bisque;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam ipsum animi necessitatibu.</p> </div>
+
+            <div class="col-md-2"><h1 style="color: bisque;">Telefones</h1> <p style="color: bisque;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> </div>
+            <div class="col-md-1"></div>
+
+        </div>
+        <div style="background-color:#0e8a96;height: 7vh;">
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
